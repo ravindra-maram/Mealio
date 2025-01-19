@@ -1,0 +1,38 @@
+{
+  "name": "mealio",
+  "version": "1.0.0",
+  "description": "A food delivery app named Mealio that acts like bridge between customers and food restaurants",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravindra-maram/Mealio.git"
+  },
+  "keywords": [
+    "Mealio",
+    "restaurant",
+    "delivery",
+    "food",
+    "ratings"
+  ],
+  "author": "Ravindra Reddy Maram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravindra-maram/Mealio/issues"
+  },
+  "homepage": "https://github.com/ravindra-maram/Mealio#readme",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "browserlist": [
+    "last 2 versions"
+  ]
+}
