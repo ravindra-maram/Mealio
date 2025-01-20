@@ -1,3 +1,57 @@
-#container{
-    background-color: aqua;
+html {
+    font-family: "Nova Slim", serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid #000; */
+  background-color: #e87a3a;
+}
+
+.logo {
+  width: 200px;
+}
+
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items > ul > li {
+  padding: 6px 8px;
+  margin: 4px 10px;
+}
+
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.res-card { 
+  /* position: relative;  */
+  width: 200px;
+  /* height: 300px; */
+  padding: 5px;
+  margin: 8px;
+}
+
+.res-card:hover { 
+  border: 1px solid #aeaeae;
+  box-shadow: 2px 2px 1px #d0c9c9;
+  cursor: pointer;
+}
+
+.search {
+    margin: 10px 0;
+}
+
+.res-logo {
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    width: 100%;
+    height: 50%;
+    /* padding: 5px; */
 }
